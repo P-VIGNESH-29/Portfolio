@@ -334,7 +334,7 @@ export default function Home() {
               >
                 {/* Portrait Cutout with transparent background */}
                 <img
-                  src="/vignesh-cutout.png"
+                  src={`${import.meta.env.BASE_URL}vignesh-cutout.png`}
                   alt="Vignesh P Cutout"
                   className="w-full h-auto max-h-[550px] md:max-h-[660px] object-contain opacity-95 hover:opacity-100 hover:scale-[1.01] transition-all duration-700 ease-out"
                   style={{
