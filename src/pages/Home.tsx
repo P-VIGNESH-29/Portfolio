@@ -7,6 +7,7 @@ import {
 
 import Typewriter from "../components/Typewriter";
 import Particles from "../components/Particles";
+import vigneshCutout from "../assets/vignesh-cutout.png";
 
 const DEVELOPER_NAME = "Vignesh P";
 const DEVELOPER_ROLE = "Full-Stack";
@@ -334,7 +335,7 @@ export default function Home() {
               >
                 {/* Portrait Cutout with transparent background */}
                 <img
-                  src={`${import.meta.env.BASE_URL}vignesh-cutout.png`}
+                  src={vigneshCutout}
                   alt="Vignesh P Cutout"
                   className="w-full h-auto max-h-[550px] md:max-h-[660px] object-contain opacity-95 hover:opacity-100 hover:scale-[1.01] transition-all duration-700 ease-out"
                   style={{
